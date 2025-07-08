@@ -1,0 +1,16 @@
+.mainImage {
+    padding: 10px;               
+    border: 5px solid #FFA1B1;      
+    border-radius: 8px;          
+    background-color: white;   
+    max-width: 100%;             
+    height: auto;                
+  }
+  
+  .galleryImages1 {
+    padding: 10px; 
+    height: 300px;
+    width: 250px;
+    border: 5px solid #a2bcd2;
+    background-color: white; 
+  }

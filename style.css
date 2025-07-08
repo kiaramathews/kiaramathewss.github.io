@@ -1,0 +1,31 @@
+@keyframes slide-in {
+    0% { transform: translateX(-100%); }
+    100% { transform: translateX(0); }
+  }
+  
+  #nav {
+    animation: slide-in 0.5s forwards;
+  }
+  html, body {
+    height: 100%;
+    width: 100%;
+  
+  }
+  
+    .mainImage {
+      padding: 10px;               
+      border: 5px solid #FFA1B1;      
+      border-radius: 8px;          
+      background-color: white;   
+      max-width: 100%;             
+      height: auto;                
+    }
+  .mainImage2 {
+    padding: 10px;               /* Space inside the border */
+    border: 5px solid #FFA1B1;      /* Solid dark border */
+    border-radius: 8px;          /* Optional: rounded corners */
+    background-color: white;   /* Optional: background behind image */
+    max-width: 100%;             /* Makes it responsive */
+    height: auto;                /* Maintains aspect ratio */
+  }
+  
